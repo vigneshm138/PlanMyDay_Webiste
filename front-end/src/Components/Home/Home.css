@@ -1,0 +1,47 @@
+.homeAnimation1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 26px;
+    background-color: #fbe9d09a;
+    position: fixed;
+    left: 0%;
+    top: 0%;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+.homeAnimation1 .homeAnimation1-closeDiv{
+    position: absolute;
+    top: 9%;
+    right: 10%;
+}
+.homeAnimation1 .homeAnimation1-closeDiv button{
+    background-color: transparent;
+    border: none;
+    font-size: 30px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: all 0.5s linear;
+}
+.homeAnimation1 .homeAnimation1-closeDiv button:hover{
+    transform: scale(1.2);
+    color: #e64833;
+}
+.homeAnimation1 .homeAnimation1-btn2 {
+    text-transform: uppercase;
+    padding: 10px 15px;
+    font-weight: 600;
+    cursor: pointer;
+    border-radius: 4px;
+    background-color: #e64833;
+    color: black;
+    border: 1px solid #e64833a4;
+    transition: all 0.5s linear;
+    font-size: 12px;
+}
+
+.homeAnimation1 button:hover {
+    background-color: transparent;
+}
