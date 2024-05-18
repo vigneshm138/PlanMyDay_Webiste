@@ -13,6 +13,7 @@ const Navbar = () => {
       <div>
         <NavLink to={"/login"}>login</NavLink>
         <NavLink to={"/signup"}>signup</NavLink>
+        <NavLink to={"/admin"} style={{marginLeft:"30px"}}>admin</NavLink>
       </div>
     </div>
   )

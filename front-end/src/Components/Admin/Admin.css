@@ -1,0 +1,15 @@
+.adminNavbarStyle{
+    text-transform: uppercase;
+    margin: 20px 0;
+    padding: 10px;
+}
+.adminNavbarStyle a{
+    font-size: 13px;
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+}
+.adminNavbarStyle a.active{
+    text-decoration: underline #e64833;
+    color: #e64833;
+}
