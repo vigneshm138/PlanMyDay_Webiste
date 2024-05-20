@@ -62,7 +62,7 @@
     resize: none;
 }
 
-.commonFormStyle form div:nth-child(8) label {
+.commonFormStyle form div  label {
     align-self: start;
 }
 
