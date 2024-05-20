@@ -1,61 +1,83 @@
 {
-    "data": [
-        {
-            "hrs": 3,
-            "placeType": "mall",
-            "placeName": "prozone",
-            "location": "coimbatore",
-            "area": "saravanampatti",
-            "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQVfbHPaGvI3Az6kXhyznLAI7b_v-jshKNsagnaa8GCU9zXe-2E2S8wIobWFQ&s",
-            "keyPoints": [
-                "shopping hub",
-                "cinemas and food courts offered ",
-                "fun games "
-            ],
-            "heading": "For a 3-hour movie experience at Prozone Mall's cinema",
-            "whatwedo": [
-                "Pre-Movie Preparation: Arrive a bit early to purchase tickets and snacks.",
-                "Movie Enjoyment: Immerse yourself in the cinematic experience, enjoying the film.",
-                "Post-Movie Time: After the movie, grab a quick bite or explore the mall for an hour, perhaps checking out shops or relaxing in a café."
-            ]
-        },
-        {
-            "hrs": 3,
-            "placeType": "mall",
-            "placeName": "prozone",
-            "location": "coimbatore",
-            "area": "saravanampatti",
-            "img": "https://th.bing.com/th/id/OIP.ZKSES1CDxYOQp0AidP_YbwHaFj?rs=1&pid=ImgDetMain",
-            "keyPoints": [
-                "shopping hub",
-                "cinemas and food courts offered ",
-                "fun games "
-            ],
-            "heading": "test2",
-            "whatwedo": [
-                "test2",
-                "test2",
-                "test2"
-            ]
-        },
-        {
-            "hrs": 3,
-            "placeType": "mall",
-            "placeName": "prozone",
-            "location": "coimbatore",
-            "area": "saravanampatti",
-            "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQVfbHPaGvI3Az6kXhyznLAI7b_v-jshKNsagnaa8GCU9zXe-2E2S8wIobWFQ&s",
-            "keyPoints": [
-                "shopping hub",
-                "cinemas and food courts offered ",
-                "fun games "
-            ],
-            "heading": "test3",
-            "whatwedo": [
-                "test3",
-                "test3",
-                "test3"
-            ]
-        }
-    ]
+  "data": [
+    {
+      "hrs": 3,
+      "placeType": "mall",
+      "placeName": "prozone",
+      "location": "coimbatore",
+      "area": "saravanampatti",
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQVfbHPaGvI3Az6kXhyznLAI7b_v-jshKNsagnaa8GCU9zXe-2E2S8wIobWFQ&s",
+      "keyPoints": [
+        "shopping hub",
+        "cinemas and food courts offered ",
+        "fun games "
+      ],
+      "heading": "For a 3-hour movie experience at Prozone Mall's cinema",
+      "whatwedo": [
+        "Pre-Movie Preparation: Arrive a bit early to purchase tickets and snacks.",
+        "Movie Enjoyment: Immerse yourself in the cinematic experience, enjoying the film.",
+        "Post-Movie Time: After the movie, grab a quick bite or explore the mall for an hour, perhaps checking out shops or relaxing in a café."
+      ],
+      "id": "161e"
+    },
+    {
+      "hrs": 3,
+      "placeType": "mall",
+      "placeName": "prozone",
+      "location": "coimbatore",
+      "area": "saravanampatti",
+      "img": "https://th.bing.com/th/id/OIP.ZKSES1CDxYOQp0AidP_YbwHaFj?rs=1&pid=ImgDetMain",
+      "keyPoints": [
+        "shopping hub",
+        "cinemas and food courts offered ",
+        "fun games "
+      ],
+      "heading": "test2",
+      "whatwedo": [
+        "test2",
+        "test2",
+        "test2"
+      ],
+      "id": "3d2b"
+    },
+    {
+      "hrs": 3,
+      "placeType": "mall",
+      "placeName": "prozone",
+      "location": "coimbatore",
+      "area": "saravanampatti",
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQVfbHPaGvI3Az6kXhyznLAI7b_v-jshKNsagnaa8GCU9zXe-2E2S8wIobWFQ&s",
+      "keyPoints": [
+        "shopping hub",
+        "cinemas and food courts offered ",
+        "fun games "
+      ],
+      "heading": "test3",
+      "whatwedo": [
+        "test3",
+        "test3",
+        "test3"
+      ],
+      "id": "b91a"
+    },
+    {
+      "id": "ee63",
+      "hrs": "5",
+      "placeType": "cinema",
+      "placeName": "Vignesh M",
+      "location": "s",
+      "area": "s",
+      "img": "C:\\fakepath\\OIP.jfif",
+      "keyPoints": [
+        "dad.mdaid",
+        "fjfj"
+      ],
+      "heading": "dad",
+      "whatwedo": [
+        "dad",
+        "daidnia",
+        "mjdjaio"
+      ]
+    }
+  ]
 }
