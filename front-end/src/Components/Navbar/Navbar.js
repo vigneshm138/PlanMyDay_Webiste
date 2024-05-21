@@ -4,7 +4,7 @@ import './Navbar.css'
 const Navbar = () => {
   return (
     <div className="navbar">
-      <h2>Play My day</h2>
+      <h2>Plan. My .day</h2>
       <div>
         <NavLink to={"/"}>Home</NavLink>
         <NavLink to={"/days"}>day</NavLink>

@@ -8,6 +8,7 @@ const Home = () => {
 
   const [showhomeAM1, setShowhomeAM1] = useState(false)
   const [showhomeAM1Btn2, setshowhomeAM1Btn2] = useState(false)
+  const [s,se]=useState("kk")
 
   useEffect(() => {
     setTimeout(() => setShowhomeAM1(true), 3000)
@@ -45,7 +46,7 @@ const Home = () => {
         </div>
       </div>}
 
-      <Place/>
+      <Place />
     </div>
   )
 }

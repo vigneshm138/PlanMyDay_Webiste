@@ -8,7 +8,7 @@
     box-shadow: rgb(230, 72, 51) 0px 0px 0.10em, rgb(230, 72, 51) 0px 0px 0.10em;
     max-width: 600px;
     width: 100%;
-    padding:  20px 15px;
+    padding: 20px 15px;
     border-radius: 3px;
     background-color: #E64833;
     color: #FBE9D0;
@@ -41,8 +41,7 @@
 
 .commonFormStyle form div input,
 .commonFormStyle form div select,
-.commonFormStyle form div textarea
-{
+.commonFormStyle form div textarea {
     width: 100%;
     max-width: 330px;
     height: 35px;
@@ -62,11 +61,11 @@
     resize: none;
 }
 
-.commonFormStyle form div  label {
+.commonFormStyle form div label {
     align-self: start;
 }
 
-.commonFormStyle form button{
+.commonFormStyle form button {
     padding: 10px;
     border: 1px solid #244855;
     text-transform: uppercase;
@@ -76,7 +75,56 @@
     background-color: #244855;
     color: white;
 }
-.commonFormStyle form button:hover{
+
+.commonFormStyle form button:hover {
     background-color: transparent;
     border: 1px solid #244855;
+}
+
+.submitSucess {
+    background-color: #1D8348;
+    padding: 16px 10px;
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 700;
+    color: white;
+    position: fixed;
+    top: 5%;
+    right: 3%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    white-space: nowrap;
+    gap: 30px;
+}
+
+.submitSucess .ss-Icon {
+    font-size: 1.2rem;
+    color: white;
+    background-color: black;
+    border-radius: 50px;
+    margin-bottom: -6px;
+    margin-right: 10px;
+}
+
+.submitSucess .closess-Icon {
+    font-size: 15px;
+    margin-bottom: -3px;
+    font-weight: 700;
+    color: white;
+}
+
+.submitSucess .ss-submitBtn {
+    background-color: transparent;
+    border: none;
+    padding: 5px;
+    cursor: pointer;
+    transition: all 0.3s linear;
+
+}
+.submitSucess .ss-submitBtn:hover{
+    background-color: #E74C3C;
+    color: white;
+    border-radius: 50px;
 }

@@ -4,6 +4,7 @@ import Singleplace from '../SinglePlace/Singleplace'
 import axios from 'axios'
 
 const Place = () => {
+
     const [sampleJson, setsampleJson] = useState([])
     const [showId, setShowId] = useState()
     const [showSinglePage, setshowSinglePage] = useState(false)

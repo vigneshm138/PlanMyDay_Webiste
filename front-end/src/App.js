@@ -6,6 +6,7 @@ import Userplanform from './Components/userPlanForm/Userplanform';
 import Admin from './Components/Admin/Admin';
 import Hometemplate from './Components/Admin/Home Template/Hometemplate';
 import Singleplace from './Components/SinglePlace/Singleplace';
+import DelethomeTemplate from './Components/Admin/Home Template/DelethomeTemplate';
 
 function App() {
   return (
@@ -14,9 +15,10 @@ function App() {
       <div className='app-content'>
         <Routes>
           <Route path='/' element={<Home />} />
-          <Route path='/planYourDay' element={<Userplanform />} />
+          <Route path='/planYourDay' element={<Userplanform  />} />
           <Route path='/admin' element={<Admin />} >
             <Route path='homeTemplate' element={<Hometemplate/>}/>
+            <Route path='Delete_homeTemplate' element={<DelethomeTemplate/>}/>
           </Route>
           <Route path='/singlePlace' element={<Singleplace />} />
         </Routes>
