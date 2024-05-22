@@ -1,9 +1,23 @@
-.app{
+.app {
     background-color: #E5E7E9;
     min-height: 100vh;
 }
-.app-content{
+
+.app-content {
     max-width: 1300px;
     padding: 10px;
     margin: auto;
+}
+
+::-webkit-scrollbar {
+    height: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #E64833;
+    border-radius: 100px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: #e6483363;
 }

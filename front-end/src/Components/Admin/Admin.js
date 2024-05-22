@@ -7,7 +7,7 @@ const Admin = () => {
     <div>
       <div className='adminNavbarStyle'>
         <NavLink to={"homeTemplate"}>Home Template</NavLink>
-        <NavLink to={"Delete_homeTemplate"}>Home Template</NavLink>
+        <NavLink to={"Delete_homeTemplate"}>Update and Delete Home Template</NavLink>
       </div>
       <Outlet/>
     </div>

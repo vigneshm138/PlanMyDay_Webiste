@@ -72,7 +72,7 @@ const Hometemplate = () => {
                         <input type='text' value={location} onChange={(e) => setlocation(e.target.value)} required />
                     </div>
                     <div>
-                        <label>start area</label>
+                        <label> area</label>
                         <input type='text' value={area} onChange={(e) => setarea(e.target.value)} required />
                     </div>
                     <div>

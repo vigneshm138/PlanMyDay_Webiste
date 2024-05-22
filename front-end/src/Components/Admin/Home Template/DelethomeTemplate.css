@@ -16,6 +16,7 @@
 .deletHomeTemplate{
     white-space: nowrap;
     overflow: auto;
+    padding: 10px;
 }
 .deleteTemplateTable tr td{
     width: 200px;

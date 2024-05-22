@@ -1,62 +1,43 @@
 {
   "data": [
     {
-      "hrs": 3,
+      "id": "946d",
+      "hrs": "3",
       "placeType": "mall",
-      "placeName": "prozone",
-      "location": "coimbatore",
-      "area": "saravanampatti",
-      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQVfbHPaGvI3Az6kXhyznLAI7b_v-jshKNsagnaa8GCU9zXe-2E2S8wIobWFQ&s",
+      "placeName": "Prozone Mall",
+      "location": "Coimbatore",
+      "area": "SaravanamPatti",
+      "img": "https://i.ytimg.com/vi/OLZS84yOwmo/maxresdefault.jpg",
       "keyPoints": [
-        "shopping hub",
-        "cinemas and food courts offered ",
-        "fun games "
+        "Cinema",
+        "Relaxing",
+        "Shoping"
       ],
-      "heading": "test3",
+      "heading": "For Spend 3 hrs watching Cinemas",
       "whatwedo": [
-        "test3",
-        "test3",
-        "test3"
-      ],
-      "id": "b91a"
-    },
-    {
-      "id": "3377",
-      "hrs": "5",
-      "placeType": "cinema",
-      "placeName": "prozone",
-      "location": "coimbatore",
-      "area": "Gandhipuram",
-      "img": "C:\\fakepath\\1_-aPIVDs2Iquoc51nH4h2Jw.png",
-      "keyPoints": [
-        "Good Nature",
-        "Vibe your one",
-        "Enjoy with your frineds"
-      ],
-      "heading": "dont know",
-      "whatwedo": [
-        "spend the 1 hr to enjoy view",
-        "another 1 hour vist some place"
+        "Watching a movie in a theater like Prozone sounds like a great plan for three hours! ",
+        "Most movies have a runtime of around 1.5 to 2.5 hours so you should have enough time to enjoy a film and maybe even grab some snacks",
+        "Just make sure to check the movie schedule and choose one that fits within your timeframe",
+        " Enjoy the show!"
       ]
     },
     {
-      "id": "3843",
+      "id": "aedc",
       "hrs": "5",
-      "placeType": "lake",
-      "placeName": "I Love Kovai",
+      "placeType": "mall",
+      "placeName": "BrookFiled",
       "location": "Coimbatore",
-      "area": "kanapathy",
-      "img": "C:\\fakepath\\maxresdefault (1).jpg",
+      "area": "R S Puram",
+      "img": "https://www.indiaretailing.com/wp-content/uploads/2018/05/Brookefields-Night-time.jpg",
       "keyPoints": [
-        "test",
-        "test",
-        "test"
+        "Shopping",
+        "Events and Activities",
+        "Events and Activities"
       ],
-      "heading": "test,test,test",
+      "heading": "Spend the 5 Hrs In BrookFiled ",
       "whatwedo": [
-        "test",
-        "test",
-        "test"
+        "Movie ( 3Hrs) : Many malls have cinemas where you can catch a film. Check the movie schedule and plan a movie viewing",
+        "\nDining ( 2 Hrs) :: Enjoy a leisurely meal at one of the mall's restaurants or food court. Try out different cuisines and treat yourself to some delicious food."
       ]
     }
   ]

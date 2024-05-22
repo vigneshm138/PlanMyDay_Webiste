@@ -8,6 +8,7 @@
     text-decoration: none;
     color: black;
     font-weight: 500;
+    margin-right: 18px;
 }
 .adminNavbarStyle a.active{
     text-decoration: underline #e64833;
