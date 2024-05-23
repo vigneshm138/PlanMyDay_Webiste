@@ -1,0 +1,13 @@
+.task input,.task select{
+    height: 40px;
+    font-size: 18px;
+}
+.task button{
+    height: 40px;
+    padding:3px 10px;
+    cursor: pointer;
+}
+.task ul{
+    margin: 20px ;
+    list-style: circle;
+}

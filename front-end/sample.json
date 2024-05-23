@@ -1,7 +1,6 @@
 {
   "data": [
     {
-      "id": "946d",
       "hrs": "3",
       "placeType": "mall",
       "placeName": "Prozone Mall",
@@ -15,14 +14,14 @@
       ],
       "heading": "For Spend 3 hrs watching Cinemas",
       "whatwedo": [
-        "Watching a movie in a theater like Prozone sounds like a great plan for three hours! ",
+        "Watching a movie_ in a theater like Prozone sounds like a great plan for three hours! ",
         "Most movies have a runtime of around 1.5 to 2.5 hours so you should have enough time to enjoy a film and maybe even grab some snacks",
         "Just make sure to check the movie schedule and choose one that fits within your timeframe",
         " Enjoy the show!"
-      ]
+      ],
+      "id": "946d"
     },
     {
-      "id": "aedc",
       "hrs": "5",
       "placeType": "mall",
       "placeName": "BrookFiled",
@@ -36,9 +35,9 @@
       ],
       "heading": "Spend the 5 Hrs In BrookFiled ",
       "whatwedo": [
-        "Movie ( 3Hrs) : Many malls have cinemas where you can catch a film. Check the movie schedule and plan a movie viewing",
-        "\nDining ( 2 Hrs) :: Enjoy a leisurely meal at one of the mall's restaurants or food court. Try out different cuisines and treat yourself to some delicious food."
-      ]
+        "Movie ( 3Hrs) : Many malls have cinemas where you can catch a film. Check the movie schedule and plan a movie viewing_\nDining ( 2 Hrs) :: Enjoy a leisurely meal at one of the mall's restaurants or food court. Try out different cuisines and treat yourself to some delicious food."
+      ],
+      "id": "aedc"
     }
   ]
 }

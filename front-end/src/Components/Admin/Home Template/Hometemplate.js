@@ -19,8 +19,9 @@ const Hometemplate = () => {
     const [showSuccessful, setshowSuccessful] = useState(false)
 
     const handleSubmit = (e) => {
+        const splitdo=wedo.split('@')
         e.preventDefault()
-        axios.post("http://localhost:3080/data", { hrs, placeType, placeName, location, area, img, keyPoints: highlights, heading, whatwedo: wedo }).then(res => setshowSuccessful(true)).catch(err => console.log(err))
+        axios.post("http://localhost:3080/data", { hrs, placeType, placeName, location, area, img, keyPoints: highlights, heading, whatwedo: splitdo }).then(res => setshowSuccessful(true)).catch(err => console.log(err))
         sethrs('')
         setplaceType('')
         setplaceName('')
@@ -56,11 +57,11 @@ const Hometemplate = () => {
                         <input type='number' value={hrs} onChange={(e) => sethrs(e.target.value)} required />
                     </div>
                     <div>
-                        <label>place name</label>
+                        <label>interesting</label>
                         <select value={placeType} onChange={(e) => setplaceType(e.target.value)} required>
-                            <option value={"mall"}>mall</option>
+                            <option value={"shopping"}>shopping</option>
                             <option value={"cinema"}>cinema</option>
-                            <option value={"lake"}>lake</option>
+                            <option value={"Dinner"}>Dinner</option>
                         </select>
                     </div>
                     <div>
@@ -89,7 +90,7 @@ const Hometemplate = () => {
                     </div>
                     <div>
                         <label>what u do</label>
-                        <textarea placeholder='only give simple 3 key points' value={wedo} onChange={(e) => setwedo(e.target.value.split(','))} required />
+                        <textarea placeholder='only give simple 3 key points' value={wedo} onChange={(e) => setwedo(e.target.value)} required />
                     </div>
                     <button type='submit'>make home Template</button>
                 </form>

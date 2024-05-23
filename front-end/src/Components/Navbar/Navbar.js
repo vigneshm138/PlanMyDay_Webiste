@@ -7,12 +7,13 @@ const Navbar = () => {
       <h2>Plan. My .day</h2>
       <div>
         <NavLink to={"/"}>Home</NavLink>
-        <NavLink to={"/days"}>day</NavLink>
-        <NavLink to={"/planYourDay"} style={{marginLeft:"30px"}}>Plan you day</NavLink>
+        <NavLink to={"/dask"}>Daily dask</NavLink>
+        <NavLink to={"/suggestion"} style={{marginLeft:"30px"}}>suggestion</NavLink>
       </div>
       <div>
         <NavLink to={"/login"}>login</NavLink>
         <NavLink to={"/signup"}>signup</NavLink>
+        <NavLink to={"/profile"} style={{marginLeft:"30px"}}>profile</NavLink>
         <NavLink to={"/admin"} style={{marginLeft:"30px"}}>admin</NavLink>
       </div>
     </div>

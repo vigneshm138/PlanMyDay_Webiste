@@ -1,22 +1,21 @@
-import React, { useEffect, useState } from 'react'
-import { TypeAnimation } from 'react-type-animation';
-import './Home.css'
-import { TfiClose } from "react-icons/tfi";
-import Place from '../Places/Place';
+import React, { useEffect, useState } from "react";
+
+import "./Home.css";
+
+import Place from "../Places/Place";
 
 const Home = () => {
+  // const [showhomeAM1, setShowhomeAM1] = useState(false)
+  // const [showhomeAM1Btn2, setshowhomeAM1Btn2] = useState(false)
+  // const [s,se]=useState("kk")
 
-  const [showhomeAM1, setShowhomeAM1] = useState(false)
-  const [showhomeAM1Btn2, setshowhomeAM1Btn2] = useState(false)
-  const [s,se]=useState("kk")
-
-  useEffect(() => {
-    setTimeout(() => setShowhomeAM1(true), 3000)
-    setTimeout(() => setshowhomeAM1Btn2(true), 21000)
-  }, [])
+  // useEffect(() => {
+  //   setTimeout(() => setShowhomeAM1(true), 3000)
+  //   setTimeout(() => setshowhomeAM1Btn2(true), 21000)
+  // }, [])
   return (
-    <div className='home'>
-      {showhomeAM1 && <div className='homeAnimation1' style={{zIndex:"99999"}}>
+    <div className="home">
+      {/* {showhomeAM1 && <div className='homeAnimation1' style={{zIndex:"99999"}}>
         <div className='homeAnimation1-closeDiv'><button onClick={() => setShowhomeAM1(false)}><TfiClose /></button></div>
         <div>
           <TypeAnimation
@@ -44,11 +43,11 @@ const Home = () => {
         <div>
           {showhomeAM1Btn2 && <button className='homeAnimation1-btn2'>plan my day</button>}
         </div>
-      </div>}
+      </div>} */}
 
       <Place />
     </div>
-  )
-}
+  );
+};
 
-export default Home
+export default Home;

@@ -1,0 +1,46 @@
+{
+  "posts": [
+    {
+      "id": "9d1d",
+      "type": "education",
+      "heading": "html",
+      "tips": "take 1 month",
+      "like": 0,
+      "whoPost": "4c08"
+    },
+    {
+      "id": "810d",
+      "type": "education",
+      "heading": "csss",
+      "tips": "give me more",
+      "like": 0,
+      "whoPost": "4c08"
+    },
+    {
+      "id": "06c5",
+      "type": "education",
+      "heading": "vikcy",
+      "tips": "www",
+      "like": 0,
+      "whoPost": "df79"
+    },
+    {
+      "id": "05ef",
+      "type": "education",
+      "heading": "node",
+      "tips": "node",
+      "like": 0,
+      "whoPost": "4c08",
+      "whoSendName": "vikcy"
+    },
+    {
+      "id": "6b27",
+      "type": "education",
+      "heading": "mogo",
+      "tips": "mogi",
+      "like": 0,
+      "whoPost": "df79",
+      "whoSendName": "josh"
+    }
+  ]
+}
