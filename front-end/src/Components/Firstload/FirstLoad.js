@@ -38,7 +38,7 @@ const FirstLoad = () => {
                 1000,
                 "We've got a plan for you 😇",
               ]}
-              wrapper="h1"
+              wrapper="p"
               speed={70}
               style={{ fontSize: "2.5em", display: "inline-block" }}
             />

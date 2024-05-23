@@ -38,13 +38,13 @@ const DelethomeTemplate = () => {
     const [messageName, setMessageName] = useState('')
 
     useEffect(() => {
-        axios.get("http://localhost:3080/data").then(res => setHomeTemplate(res.data)).catch(err => console.log(err))
+        axios.get("http://localhost:4001/product/get").then(res => setHomeTemplate(res.data)).catch(err => console.log(err))
         console.log("use");
     }, [refresh])
 
 
     const handleDHTDeleteBtn = (id) => {
-        axios.delete(`http://localhost:3080/data/${id}`).then(res =>
+        axios.delete(`http://localhost:4001/product/delete/${id}`).then(res =>
             setrefresh(!refresh),
             setMessageName("Delete"),
             setshowUpdateSuccessful(true)
@@ -58,7 +58,7 @@ const DelethomeTemplate = () => {
     const handleDHTeditBtn = (id) => {
         setSaveId(id)
         setShowUpdateForm(true)
-        const filterUpdate = homeTemplate.find(item => item.id === id)
+        const filterUpdate = homeTemplate.find(item => item._id === id)
         console.log(filterUpdate.id);
         sethrs(filterUpdate.hrs)
         setplaceType(filterUpdate.placeType)
@@ -74,7 +74,7 @@ const DelethomeTemplate = () => {
 
     const handleUpdateForm = (e) => {
         e.preventDefault()
-        axios.put(`http://localhost:3080/data/${saveId}`, { hrs, placeType, placeName, location, area, img, keyPoints: highlights, heading, whatwedo: wedo }).then(res =>
+        axios.put(`http://localhost:4001/product/update/${saveId}`, { hrs, placeType, placeName, location, area, img, keyPoints: highlights, heading, whatwedo: wedo }).then(res =>
             setShowUpdateForm(false),
             setshowUpdateSuccessful(true),
             setMessageName("Update")
@@ -119,8 +119,8 @@ const DelethomeTemplate = () => {
                                     <td>{item.heading}</td>
                                     <td>{item.whatwedo}</td>
                                     <td className='actionFordht'>
-                                        <button onClick={() => handleDHTeditBtn(item.id)}><CiEdit className='dht-edit' /></button>
-                                        <button onClick={() => handleDHTDeleteBtn(item.id)}><MdDeleteOutline className='dht-delete' /></button>
+                                        <button onClick={() => handleDHTeditBtn(item._id)}><CiEdit className='dht-edit' /></button>
+                                        <button onClick={() => handleDHTDeleteBtn(item._id)}><MdDeleteOutline className='dht-delete' /></button>
                                     </td>
                                 </tr>
                             )

@@ -21,7 +21,7 @@ const Hometemplate = () => {
     const handleSubmit = (e) => {
         const splitdo=wedo.split('@')
         e.preventDefault()
-        axios.post("http://localhost:3080/data", { hrs, placeType, placeName, location, area, img, keyPoints: highlights, heading, whatwedo: splitdo }).then(res => setshowSuccessful(true)).catch(err => console.log(err))
+        axios.post("http://localhost:4001/product/post", { hrs, placeType, placeName, location, area, img, keyPoints: highlights, heading, whatwedo: splitdo }).then(res => setshowSuccessful(true)).catch(err => console.log(err))
         sethrs('')
         setplaceType('')
         setplaceName('')

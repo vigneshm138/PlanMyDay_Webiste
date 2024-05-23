@@ -12,6 +12,7 @@ import Login from './Components/Login&Sign Up/Login';
 import SignUp from './Components/Login&Sign Up/SignUp';
 import Profile from './Components/Profile/Profile';
 import Dask from './Components/Dask/Dask';
+import Profile1 from './Components/Profile/Profile1';
 
 function App() {
   return (
@@ -29,7 +30,7 @@ function App() {
           <Route path='/singlePlace' element={<Singleplace />} />
           <Route path='/login' element={<Login  />} />
           <Route path='/signup' element={<SignUp  />} />
-          <Route path='/profile' element={<Profile  />} />
+          <Route path='/profile1' element={<Profile1  />} />
           <Route path='/suggestion' element={<Profile  />} />
           <Route path='/dask' element={<Dask  />} />
         </Routes>

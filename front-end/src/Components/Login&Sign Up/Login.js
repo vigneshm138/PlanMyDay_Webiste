@@ -1,16 +1,18 @@
 import axios from "axios";
 import React, { useEffect, useState } from "react";
 import { Authuse } from "../Auth";
+import './Login.css'
 
 const Login = () => {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const [user, setuser] = useState([])
 
+
   const userName=Authuse()
 
   useEffect(()=>{
-    axios.get("http://localhost:3090/users").then(res=>setuser(res.data))
+    axios.get("http://localhost:4001/login/get").then(res=>setuser(res.data))
   },[])
 
   const handleSubmit=(e)=>{
@@ -18,7 +20,7 @@ const Login = () => {
     const findUser = user.find(x => x.email === email)
     if (findUser){
         if (findUser.password === password) {
-            userName.login(findUser.name,findUser.id)
+            userName.login(findUser.name,findUser._id)
 
         }
     }
@@ -50,6 +52,7 @@ const Login = () => {
           </div>
           <button type="submit">Submit</button>
         </form>
+
       </div>
     </div>
   );

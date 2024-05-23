@@ -10,7 +10,7 @@ const Place = () => {
     const [showSinglePage, setshowSinglePage] = useState(false)
 
     useEffect(() => {
-        axios.get("http://localhost:3080/data").then(res => setsampleJson(res.data))
+        axios.get("http://localhost:4001/product/get").then(res => setsampleJson(res.data))
     }, [])
 
     const handleShowHomeTF = (id) => {
@@ -51,13 +51,13 @@ const Place = () => {
                                         </ul>
                                     </div>
                                 </div>
-                                <button className='placeBox-btn' onClick={() => handleShowHomeTF(item.id)}>mark may day</button>
+                                <button className='placeBox-btn' onClick={() => handleShowHomeTF(item._id)}>mark may day</button>
                             </div>
                         </div>
                     )
                 })}
             </div>
-            {showSinglePage && <Singleplace showId={showId} setshowSinglePage={setshowSinglePage}/>}
+            {showSinglePage && <Singleplace showId={showId} setshowSinglePage={setshowSinglePage} />}
         </div>
     )
 }
