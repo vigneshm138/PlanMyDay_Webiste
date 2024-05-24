@@ -14,25 +14,27 @@ import Profile from './Components/Profile/Profile';
 import Dask from './Components/Dask/Dask';
 import Profile1 from './Components/Profile/Profile1';
 
+
 function App() {
   return (
     <div className="app">
       <Navbar />
-      <FirstLoad/>
+      <FirstLoad />
+
       <div className='app-content'>
         <Routes>
           <Route path='/' element={<Home />} />
           {/* <Route path='/planYourDay' element={<Userplanform  />} /> */}
           <Route path='/admin' element={<Admin />} >
-            <Route path='homeTemplate' element={<Hometemplate/>}/>
-            <Route path='Delete_homeTemplate' element={<DelethomeTemplate/>}/>
+            <Route path='homeTemplate' element={<Hometemplate />} />
+            <Route path='Delete_homeTemplate' element={<DelethomeTemplate />} />
           </Route>
           <Route path='/singlePlace' element={<Singleplace />} />
-          <Route path='/login' element={<Login  />} />
-          <Route path='/signup' element={<SignUp  />} />
-          <Route path='/profile1' element={<Profile1  />} />
-          <Route path='/suggestion' element={<Profile  />} />
-          <Route path='/dask' element={<Dask  />} />
+          <Route path='/login' element={<Login />} />
+          <Route path='/signup' element={<SignUp />} />
+          <Route path='/profile1' element={<Profile1 />} />
+          <Route path='/suggestion' element={<Profile />} />
+          <Route path='/dask' element={<Dask />} />
         </Routes>
       </div>
     </div>

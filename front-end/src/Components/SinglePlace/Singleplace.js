@@ -8,7 +8,7 @@ const Singleplace = ({ showId, setshowSinglePage }) => {
     const [singleplace, setsingleplace] = useState([])
 
     useEffect(() => {
-        axios.get("http://localhost:4001/product/get").then(res => setsingleplace(res.data.filter(item => item.id == showId)))
+        axios.get("http://localhost:4001/product/get").then(res => setsingleplace(res.data.filter(item => item._id == showId)))
     }, [])
 
     return (
